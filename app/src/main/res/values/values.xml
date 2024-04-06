@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    font<!-- Example strings -->
+    <string name="welcome_message">Welcome to MyApp!</string>
+
+    <!-- Example colors -->
+    <color name="primary_color">#3F51B5</color>
+    <color name="accent_color">#FF4081</color>
+
+    <!-- Example dimensions -->
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+
+    <!-- Example styles -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AttendanceApp</string>
+    <string name="attend_ace">Attend Ace</string>
+    <string name="_0_00_75">0.00|75</string>
+    <string name="today">Today</string>
+    <string name="time_table">Time Table</string>
+    <string name="calendar">Calendar</string>
+    <string name="subjects">Subjects</string>
+    <string name="you_are_marked_absent">You are marked absent</string>
+</resources>
