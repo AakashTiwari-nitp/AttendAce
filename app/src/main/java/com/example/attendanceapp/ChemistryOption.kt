@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
+import android.widget.LinearLayout
 
 class ChemistryOption : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +27,30 @@ class ChemistryOption : AppCompatActivity() {
         val btn_Cancel = findViewById<Button>(R.id.btnCancel)
         btn_Cancel.setOnClickListener {
             val i = Intent(this, ChemistryCancel::class.java)
+            startActivity(i)
+        }
+
+        val btn_Calendar = findViewById<LinearLayout>(R.id.llCalendar)
+        btn_Calendar.setOnClickListener{
+            val i = Intent(this, April2024::class.java)
+            startActivity(i)
+        }
+
+        val btnTimeTable = findViewById<LinearLayout>(R.id.llTimeTable)
+        btnTimeTable.setOnClickListener{
+            val i = Intent(this, TimeTable::class.java)
+            startActivity(i)
+        }
+
+        val btnAdd = findViewById<ImageView>(R.id.Btn_Add)
+        btnAdd.setOnClickListener{
+            val i = Intent(this, AddSubject::class.java)
+            startActivity(i)
+        }
+
+        val btnMenuBar = findViewById<ImageView>(R.id.btn_menubar)
+        btnMenuBar.setOnClickListener{
+            val i = Intent(this, MenuBar::class.java)
             startActivity(i)
         }
     }

@@ -1,28 +1,20 @@
 package com.example.attendanceapp
 
-import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class LoadingPage : AppCompatActivity() {
+class CheckAttendanceReport : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_loading_page)
+        setContentView(R.layout.activity_check_attendance_report)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        Handler(Looper.getMainLooper()).postDelayed(
-            {
-                val i = Intent(this, ChemistryOption::class.java)
-                startActivity(i)
-            },1000)
     }
 }

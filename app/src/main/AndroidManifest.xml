@@ -13,6 +13,60 @@
         android:theme="@style/Theme.AttendanceApp"
         tools:targetApi="31">
         <activity
+            android:name=".PhysicsWorkAssignmentAdded"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsWorkAssignment"
+            android:exported="false" />
+        <activity
+            android:name=".WebTechnologyAssignmentAdded"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".UpgradeToPremium"
+            android:exported="false" />
+        <activity
+            android:name=".CheckAttendanceReport"
+            android:exported="false" />
+        <activity
+            android:name=".AddWorkAssignment"
+            android:exported="false" />
+        <activity
+            android:name=".AddTimeTable"
+            android:exported="false" />
+        <activity
+            android:name=".WorkAssignment"
+            android:exported="false" />
+        <activity
+            android:name=".MenuBar"
+            android:exported="false" />
+        <activity
+            android:name=".WebTechnologyAdded"
+            android:exported="false" />
+        <activity
+            android:name=".AddSubject"
+            android:exported="false" />
+        <activity
+            android:name=".AssignmentHistory"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsTimeTableAdded"
+            android:exported="false" />
+        <activity
+            android:name=".TimeTable"
+            android:exported="false" />
+        <activity
+            android:name=".April2024"
+            android:exported="false" />
+        <activity
+            android:name=".April2"
+            android:exported="false" />
+        <activity
+            android:name=".April1"
+            android:exported="false" />
+        <activity
             android:name=".Hii"
             android:exported="false" />
         <activity
