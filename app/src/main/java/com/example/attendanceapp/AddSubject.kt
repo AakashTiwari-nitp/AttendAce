@@ -22,7 +22,7 @@ class AddSubject : AppCompatActivity() {
 
         val btnAddSubject = findViewById<Button>(R.id.btnAddSubject)
         btnAddSubject.setOnClickListener{
-            val i = Intent(this, PhysicsTimeTableAdded::class.java)
+            val i = Intent(this, WebTechnologyAdded::class.java)
             startActivity(i)
         }
 

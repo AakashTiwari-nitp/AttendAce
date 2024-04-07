@@ -37,5 +37,6 @@ class WebTechnologyAdded : AppCompatActivity() {
             val i = Intent(this, AddSubject::class.java)
             startActivity(i)
         }
+
     }
 }
