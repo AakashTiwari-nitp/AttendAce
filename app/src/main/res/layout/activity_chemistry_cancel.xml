@@ -476,6 +476,7 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <LinearLayout
+                android:id="@+id/ll_Today"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -495,6 +496,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/llTimeTable"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -514,6 +516,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/llCalendar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

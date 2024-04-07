@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AttendanceApp"
         tools:targetApi="31">
         <activity
+            android:name=".PhysicsTimeTableAdded"
+            android:exported="false" />
+        <activity
+            android:name=".TimeTable"
+            android:exported="false" />
+        <activity
+            android:name=".April2024"
+            android:exported="false" />
+        <activity
+            android:name=".April2"
+            android:exported="false" />
+        <activity
+            android:name=".April1"
+            android:exported="false" />
+        <activity
             android:name=".Hii"
             android:exported="false" />
         <activity

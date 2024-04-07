@@ -16,4 +16,12 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+    <style name="date">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="dayname">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textSize">13sp</item>
+    </style>
 </resources>
